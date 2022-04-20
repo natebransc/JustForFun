@@ -32,6 +32,8 @@ def main(correct, mem):
     # Simple, inelegant method to clear screen
     # Replace later with method that gets screen size
     print("\n" * 20)
+    if correct == -4:
+        print("Bruh\n( ಠ ¿ ಠ )")
     if correct == total:
         return("Congratulations!")
     print(str(correct + 1) + " out of " + str(total))
