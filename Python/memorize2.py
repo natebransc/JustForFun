@@ -31,11 +31,14 @@ def gander(mem):
     print("Take a gander: " + mem)
     sleep(0.6)
     i = 10
+
     while i != 0:
         print(i)
         sleep(0.25)
         i -= 1
     print("\n" * 20)
+
+    return
 
 def main(correct, streak, mem):
     total = 10
